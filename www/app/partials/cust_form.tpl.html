@@ -1,0 +1,29 @@
+
+    <div id="form">
+        <form name="cust_form">
+            <label>Account No:</label>
+            <input type="text" ng-model="cust.int_custID" id="int_custID"/>
+            <label>Company:</label>
+            <input type="text" ng-model="cust.cust_company"  id="cust_company"/>
+            <label>Address:</label>
+            <textarea type="text" rows=5 ng-model="cust.cust_address" id="cust_address"></textarea>
+            <label>Postcode:</label>
+            <input type="text" ng-model="cust.cust_postcode" id="cust_postcode"/>
+            <label>Contact 1:</label>
+            <input type="text" ng-model="cust.cust_contact_1"  id="cust_contact_1"/>
+            <label>Contact 2:</label>
+            <input type="text" ng-model="cust.cust_contact_2"  id="cust_contact_2"/>
+            <label>Telephone:</label>
+            <input type="text" ng-model="cust.cust_tel" id="cust_tel"/>
+            <label>Mobile:</label>
+            <input type="text" ng-model="cust.cust_mob" id="cust_mob"/>
+            <label>DDI:</label>
+            <input type="text" ng-model="cust.cust_DDI" id="cust_DDI"/>
+            <label>Email:</label>
+            <input type="email" ng-model="cust.cust_email" id="cust_email"/>
+            <label>Notes:</label>
+            <textarea type="text" rows=5 colums=1 ng-model="cust.cust_notes" id="cust_notes"></textarea>
+
+            <button type="submit" ng-click="custCreUpd()"> Submit </button>
+        </form>
+    </div>
